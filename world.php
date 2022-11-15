@@ -1,5 +1,5 @@
 <?php
-header('Access Control Allow Origin: *');
+header('Access-Control-Allow-Origin: *');
 $host = 'localhost';
 $username = 'lab5_user';
 $password = 'password123';
@@ -63,6 +63,6 @@ $city_results = $requested_city -> fetchAll(PDO::FETCH_ASSOC);
 </table>
 <?php endif; ?>
 
-<?php foreach ($results as $row): ?>
+<?php /*foreach ($results as $row): ?>
 <li><?= $row['name'] . ' is ruled by ' .  $row['head_of_state']; ?></li>
-<?php endforeach;?>
+<?php endforeach;?>*/

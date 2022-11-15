@@ -3,14 +3,14 @@
 body{
     background-color:  	#e6f2ff;
 }
-/* HEADER*/
+
 header {
-    background-color: rgb(112, 128, 144);
+    background-color: rgb(33, 89, 145);
     padding: 10px 10px;
 }
 
 header > h1 {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sansserif; 
     color: white;
 }
 
@@ -33,11 +33,13 @@ header > h1 {
 .header_text{
     float: right;
     color: whitesmoke;
+    padding-right: 60px;
+    padding-left: 60px;
 }
 main{
     padding-top: 60px;
 }
-/*   Main  */
+
 #controls {
     display: flex;
     justify-content: center;
@@ -51,12 +53,12 @@ main{
     margin-right: 10px;
     height: 25px;
     font-size: 20px;
-    font-family: 'Arial Narrow Bold', sans-serif;
+    font-family: apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sansserif; 
 }
 #controls > input{
     height: 40px;
     border-radius: 5px;
-    font: 'Arial Narrow Bold', sans-serif;
+    font: apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sansserif; 
 }
 #controls > button{
     margin-left: 10px;
@@ -67,7 +69,7 @@ main{
     font-size: 13px;
     text-transform: uppercase;
     text-shadow: black;
-    font-family: 'Arial Narrow Bold', sans-serif;
+    font-family: apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sansserif; 
 }
 #result{
     padding-right: auto;

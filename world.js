@@ -5,7 +5,7 @@ window.onload=function(){
     countryBtn.addEventListener('click',function(action){
         action.preventDefault();
         let countryReq = document.getElementById("country").value;
-        fetch("world.php" + "?country=" + countryReq)
+        fetch("http://localhost/info2180-lab5/world.php" + "?country=" + countryReq)
         .then(response =>{
             if (response.ok){
                 return response.text()
@@ -23,7 +23,7 @@ window.onload=function(){
     cityBtn.addEventListener('click',function(action){
         action.preventDefault();
         let cityReq = document.getElementById("country").value;
-        fetch("world.php" + "?country=" + cityReq + "&context=cities")
+        fetch("http://localhost/info2180-lab5/world.php" + "?country=" + cityReq + "&context=cities")
         .then(response =>{
             if (response.ok){
                 return response.text()
